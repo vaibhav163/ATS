@@ -1,0 +1,49 @@
+// make-sitemap.js  (no packages needed)
+const fs = require("fs");
+const path = require("path");
+
+const BASE = "https://www.atsproject.in";   // no trailing slash
+const ROOT = ".";                           // run from your site's root folder
+const TRAILING_SLASH = false;               // match your <link rel="canonical"> style
+
+const EXCLUDE_DIRS = new Set([
+  "node_modules", ".git", "css", "js", "images", "img", "assets", "fonts", "_external"
+]);
+const EXCLUDE_FILES = [/thank/i, /404/, /^google.*\.html$/i, /^sitemap/i];
+
+const urls = [];
+
+function walk(dir) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (!EXCLUDE_DIRS.has(entry.name)) walk(full);
+    } else if (entry.name.toLowerCase().endsWith(".html")) {
+      if (EXCLUDE_FILES.some(rx => rx.test(entry.name))) continue;
+
+      let rel = path.relative(ROOT, full).split(path.sep).join("/");
+      if (rel === "index.html") rel = "";
+      else if (rel.endsWith("/index.html")) rel = rel.slice(0, -"index.html".length - 1);
+
+      let loc = BASE + (rel ? "/" + rel : "/");
+      if (rel && !rel.endsWith(".html") && TRAILING_SLASH) loc += "/";
+
+      const lastmod = fs.statSync(full).mtime.toISOString().slice(0, 10);
+      urls.push({ loc, lastmod });
+    }
+  }
+}
+
+walk(ROOT);
+urls.sort((a, b) => a.loc.length - b.loc.length || a.loc.localeCompare(b.loc));
+
+const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const xml =
+  '<?xml version="1.0" encoding="UTF-8"?>\n' +
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  urls.map(u => `  <url>\n    <loc>${esc(u.loc)}</loc>\n    <lastmod>${u.lastmod}</lastmod>\n  </url>`).join("\n") +
+  "\n</urlset>\n";
+
+fs.writeFileSync("sitemap.xml", xml);
+console.log(`Done: ${urls.length} pages written to sitemap.xml`);
+urls.forEach(u => console.log("  " + u.loc));
