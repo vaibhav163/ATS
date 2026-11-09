@@ -1,0 +1,511 @@
+{
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/index.html",
+      "destination": "/projects-in-noida",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/index.html",
+      "destination": "/projects-in-greater-noida",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/index.html",
+      "destination": "/projects-in-ghaziabad",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-bouquet-sector-132-noida-expressway/index.html",
+      "destination": "/projects/ats-bouquet-sector-132-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-bouquet-sector-132-noida-expressway",
+      "destination": "/projects/ats-bouquet-sector-132-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-bouquet-sector-132-noida-expressway/index.html",
+      "destination": "/projects/ats-bouquet-sector-132-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-codename-hotcake-150-sector-150/index.html",
+      "destination": "/projects/ats-codename-hotcake-150-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-codename-hotcake-150-sector-150",
+      "destination": "/projects/ats-codename-hotcake-150-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/ats-codename-hotcake-150-sector-150/index.html",
+      "destination": "/projects/ats-codename-hotcake-150-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-homekraft-pious-hideaways-phase-2-sector-150/index.html",
+      "destination": "/projects/ats-homekraft-pious-hideaways-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-homekraft-pious-hideaways-phase-2-sector-150",
+      "destination": "/projects/ats-homekraft-pious-hideaways-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-pious-hideaways-phase-2-sector-150/index.html",
+      "destination": "/projects/ats-homekraft-pious-hideaways-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-homekraft-pious-hideaways-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-homekraft-pious-hideaways-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-homekraft-pious-hideaways-sector-150-noida-expressway",
+      "destination": "/projects/ats-homekraft-pious-hideaways-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-pious-hideaways-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-homekraft-pious-hideaways-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-kinghood-drive-sector-152/index.html",
+      "destination": "/projects/ats-kinghood-drive-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-kinghood-drive-sector-152",
+      "destination": "/projects/ats-kinghood-drive-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/ats-kinghood-drive-sector-152/index.html",
+      "destination": "/projects/ats-kinghood-drive-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-kingston-heath-sector-150/index.html",
+      "destination": "/projects/ats-kingston-heath-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-kingston-heath-sector-150",
+      "destination": "/projects/ats-kingston-heath-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/ats-kingston-heath-sector-150/index.html",
+      "destination": "/projects/ats-kingston-heath-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-knightsbridge-sector-124/index.html",
+      "destination": "/projects/ats-knightsbridge-sector-124",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-knightsbridge-sector-124",
+      "destination": "/projects/ats-knightsbridge-sector-124",
+      "permanent": true
+    },
+    {
+      "source": "/ats-knightsbridge-sector-124/index.html",
+      "destination": "/projects/ats-knightsbridge-sector-124",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-le-grandiose-phase-2-sector-150/index.html",
+      "destination": "/projects/ats-le-grandiose-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-le-grandiose-phase-2-sector-150",
+      "destination": "/projects/ats-le-grandiose-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/ats-le-grandiose-phase-2-sector-150/index.html",
+      "destination": "/projects/ats-le-grandiose-phase-2-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-le-grandiose-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-le-grandiose-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-le-grandiose-sector-150-noida-expressway",
+      "destination": "/projects/ats-le-grandiose-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-le-grandiose-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-le-grandiose-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-picturesque-reprieves-sector-152/index.html",
+      "destination": "/projects/ats-picturesque-reprieves-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-picturesque-reprieves-sector-152",
+      "destination": "/projects/ats-picturesque-reprieves-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/ats-picturesque-reprieves-sector-152/index.html",
+      "destination": "/projects/ats-picturesque-reprieves-sector-152",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-pristine-golf-villas-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-pristine-golf-villas-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-pristine-golf-villas-sector-150-noida-expressway",
+      "destination": "/projects/ats-pristine-golf-villas-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-pristine-golf-villas-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-pristine-golf-villas-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-pristine-phase-2-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-pristine-phase-2-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-pristine-phase-2-sector-150-noida-expressway",
+      "destination": "/projects/ats-pristine-phase-2-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-pristine-phase-2-sector-150-noida-expressway/index.html",
+      "destination": "/projects/ats-pristine-phase-2-sector-150-noida-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-veritas-sector-150/index.html",
+      "destination": "/projects/ats-veritas-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-noida/ats-veritas-sector-150",
+      "destination": "/projects/ats-veritas-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/ats-veritas-sector-150/index.html",
+      "destination": "/projects/ats-veritas-sector-150",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-allure-sector-22d-yamuna-expressway/index.html",
+      "destination": "/projects/ats-allure-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-allure-sector-22d-yamuna-expressway",
+      "destination": "/projects/ats-allure-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-allure-sector-22d-yamuna-expressway/index.html",
+      "destination": "/projects/ats-allure-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-commercial-greater-noida/index.html",
+      "destination": "/projects/ats-commercial-greater-noida",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-commercial-greater-noida",
+      "destination": "/projects/ats-commercial-greater-noida",
+      "permanent": true
+    },
+    {
+      "source": "/ats-commercial-greater-noida/index.html",
+      "destination": "/projects/ats-commercial-greater-noida",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-destinaire-phase-2-sector-1/index.html",
+      "destination": "/projects/ats-destinaire-phase-2-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-destinaire-phase-2-sector-1",
+      "destination": "/projects/ats-destinaire-phase-2-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/ats-destinaire-phase-2-sector-1/index.html",
+      "destination": "/projects/ats-destinaire-phase-2-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-destinaire-sector-1/index.html",
+      "destination": "/projects/ats-destinaire-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-destinaire-sector-1",
+      "destination": "/projects/ats-destinaire-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/ats-destinaire-sector-1/index.html",
+      "destination": "/projects/ats-destinaire-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-dolce-phase-2-zeta-1/index.html",
+      "destination": "/projects/ats-dolce-phase-2-zeta-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-dolce-phase-2-zeta-1",
+      "destination": "/projects/ats-dolce-phase-2-zeta-1",
+      "permanent": true
+    },
+    {
+      "source": "/ats-dolce-phase-2-zeta-1/index.html",
+      "destination": "/projects/ats-dolce-phase-2-zeta-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-happy-trails-sector-10/index.html",
+      "destination": "/projects/ats-homekraft-happy-trails-sector-10",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-happy-trails-sector-10",
+      "destination": "/projects/ats-homekraft-happy-trails-sector-10",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-happy-trails-sector-10/index.html",
+      "destination": "/projects/ats-homekraft-happy-trails-sector-10",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-nobility-sector-4/index.html",
+      "destination": "/projects/ats-homekraft-nobility-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-nobility-sector-4",
+      "destination": "/projects/ats-homekraft-nobility-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-nobility-sector-4/index.html",
+      "destination": "/projects/ats-homekraft-nobility-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-sector-12/index.html",
+      "destination": "/projects/ats-homekraft-sector-12",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-homekraft-sector-12",
+      "destination": "/projects/ats-homekraft-sector-12",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-sector-12/index.html",
+      "destination": "/projects/ats-homekraft-sector-12",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-kabana-high-sector-4/index.html",
+      "destination": "/projects/ats-kabana-high-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-kabana-high-sector-4",
+      "destination": "/projects/ats-kabana-high-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/ats-kabana-high-sector-4/index.html",
+      "destination": "/projects/ats-kabana-high-sector-4",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-plots-yamuna-expressway/index.html",
+      "destination": "/projects/ats-plots-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-plots-yamuna-expressway",
+      "destination": "/projects/ats-plots-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-plots-yamuna-expressway/index.html",
+      "destination": "/projects/ats-plots-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-province-d-olympia-yamuna-expressway/index.html",
+      "destination": "/projects/ats-province-d-olympia-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-province-d-olympia-yamuna-expressway",
+      "destination": "/projects/ats-province-d-olympia-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-province-d-olympia-yamuna-expressway/index.html",
+      "destination": "/projects/ats-province-d-olympia-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-rhapsody-sector-1/index.html",
+      "destination": "/projects/ats-rhapsody-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-rhapsody-sector-1",
+      "destination": "/projects/ats-rhapsody-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/ats-rhapsody-sector-1/index.html",
+      "destination": "/projects/ats-rhapsody-sector-1",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-the-hedges-sector-22d-yamuna-expressway/index.html",
+      "destination": "/projects/ats-the-hedges-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-the-hedges-sector-22d-yamuna-expressway",
+      "destination": "/projects/ats-the-hedges-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-the-hedges-sector-22d-yamuna-expressway/index.html",
+      "destination": "/projects/ats-the-hedges-sector-22d-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-yamuna-expressway/index.html",
+      "destination": "/projects/ats-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-greater-noida/ats-yamuna-expressway",
+      "destination": "/projects/ats-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/ats-yamuna-expressway/index.html",
+      "destination": "/projects/ats-yamuna-expressway",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-floral-pathways-nh-24/index.html",
+      "destination": "/projects/ats-floral-pathways-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-floral-pathways-nh-24",
+      "destination": "/projects/ats-floral-pathways-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/ats-floral-pathways-nh-24/index.html",
+      "destination": "/projects/ats-floral-pathways-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-homekraft-residential-nh-24/index.html",
+      "destination": "/projects/ats-homekraft-residential-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-homekraft-residential-nh-24",
+      "destination": "/projects/ats-homekraft-residential-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/ats-homekraft-residential-nh-24/index.html",
+      "destination": "/projects/ats-homekraft-residential-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-khyber-range-nh-24/index.html",
+      "destination": "/projects/ats-khyber-range-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/projects-in-ghaziabad/ats-khyber-range-nh-24",
+      "destination": "/projects/ats-khyber-range-nh-24",
+      "permanent": true
+    },
+    {
+      "source": "/ats-khyber-range-nh-24/index.html",
+      "destination": "/projects/ats-khyber-range-nh-24",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://api.emailjs.com https://www.google-analytics.com https://connect.facebook.net; frame-ancestors 'self'"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
